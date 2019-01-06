@@ -1,31 +1,21 @@
 #include "stdafx.h"
 
+//all includes in one single header
 #include "Calc.h"
 
-//#include "Color.h"
-//#include "Font.h"
-//#include "Token.h"
-//#include "Parser.h"
-//#include "Reference.h"
-//#include "SyntaxTree.h"
-//#include "CellMatrix.h"
-//#include "TSetMatrix.h"
 
-
-
-//#include "Cell.h"
 
 using namespace Utility;
 
 
 // constants and enums 
 const int HEADER_WIDTH = 1000;
-const int HEADER_HEIGHT = 700;
+const int HEADER_HEIGHT = 500;
 const int COL_WIDTH = 4000;
 const int COL_HEIGHT = 1000;
-const int ROW_HEIGHT = 20;
+const int ROW_HEIGHT = 1000;  
 const int TOTAL_WIDTH = HEADER_WIDTH + COLS * COL_WIDTH;
-const int TOTAL_HEIGTH = HEADER_HEIGHT + ROWS * ROW_HEIGHT;
+const int TOTAL_HEIGHT = HEADER_HEIGHT + ROWS * ROW_HEIGHT;
 
 static const int CELL_MARGIN = 100;
 

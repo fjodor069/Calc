@@ -2,6 +2,7 @@
     MICROSOFT FOUNDATION CLASS LIBRARY : Calc Project Overview
 ===============================================================================
 // This is an example project for a Spreadsheet program
+// MFC Windows SDI application
 // 
 // from Packt Publishing Microsoft Visual C++ 2008
 //

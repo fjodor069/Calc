@@ -4,11 +4,15 @@
 // this class handles a single cell
 //
 //constants defined in Cell.cpp
+// are used in the View class
+//
 extern const int HEADER_WIDTH;
 extern const int HEADER_HEIGHT;
 extern const int COL_WIDTH; 
 extern const int COL_HEIGHT;
 extern const int ROW_HEIGHT;
+extern const int TOTAL_WIDTH;
+extern const int TOTAL_HEIGHT;
 
 
 enum CellState {CELL_TEXT, CELL_VALUE, CELL_FORMULA};
